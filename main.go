@@ -20,4 +20,8 @@ func main() {
 	// second way to declaration a variable
 	what_are_you_doing := "learning Golang"
 	fmt.Println("hello world", what_are_you_doing)
+
+	// declaration multiple variables
+	car, cost := "Bmw", 5999
+	fmt.Println("car:", car, "cost:", cost)
 }
