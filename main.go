@@ -17,11 +17,19 @@ func main() {
 	_, _ = car_name, car_model
 	// if you don't want to get compile error -> second way
 
-	// second way to declaration a variable
+	// second way to declaration a variable -> short decalaration
 	what_are_you_doing := "learning Golang"
 	fmt.Println("hello world", what_are_you_doing)
 
 	// declaration multiple variables
 	car, cost := "Bmw", 5999
 	fmt.Println("car:", car, "cost:", cost)
+
+	// update a declared variable
+	// car, cost := "Bmw", 5999 --> it give you an error
+
+	var oppend bool = false
+	oppend, time := true, 18
+
+	fmt.Println("status:", oppend, "time:", time)
 }
