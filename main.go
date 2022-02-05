@@ -9,7 +9,7 @@ func main() {
 	var car_name string = "ford"
 	var car_model string = "mustang"
 	var car_number int = 1992
-	// tip: when you declaration a variable like top, you should use it.
+	// tip: when you declaration a variable, you should use it.
 	// go gives you an error for unsued variable
 
 	_ = car_number
